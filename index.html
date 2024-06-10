@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="header-info">
+                <h1>Todo app</h1>
+                <div class="burger">
+                    <img src="./img/burger_icon.svg" alt="burger-menu">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="backdrop"></div>
+        <div class="fade">
+                <span id="cross">&#x2716;</span>
+                <h1 class="header-h1">add new task</h1>
+                <div class="form">
+                    <div class="categories-form">
+                        <form name="categories">
+                        <input type="text" name="title" class="form-control">
+                        <button>create</button>
+                    </form>
+                    </div>
+                    <div class="todos-form">
+                        <form name="todos">
+                        <input class="form-control" type="text" name="title">
+                        <textarea class="form-control" name="description"></textarea>
+                        <input class="form-control" type="datetime-local" name="deadline">
+                        <select class="form-select" name="category" id="categs" >
+                        </select>
+                        <button>create</button>
+                    </form>
+                    </div>
+                    
+                </div>
+                    
+                    
+        </div>
+        
+        <div id="todo-container" class="todo-container">
+            
+            <!-- <div class="category">
+                <div class="tasks-head">
+                    <h3 class="todo-title-head">work</h3>
+                    <span class="tasks-amount">2</span>
+                </div>
+                <div class="tasks-box">
+                    <div class="task">
+                        <input type="checkbox" class="do">
+                        <div class="task-info">
+                            <h4 class="task-title">buy milk</h4>
+                            <p class="due-to">Due: 2001.09.11</p>
+                        </div>
+                        <div class="change">
+                            <img class="change-img" src="./img/change.svg" alt="change">
+                        </div>
+                        <div class="delete">
+                            <img class="delete-img" src="./img/delete.svg" alt="delete">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
