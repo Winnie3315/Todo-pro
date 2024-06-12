@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(235, 231, 228);
+    background-color: rgb(247 243 241);
+    
 }
 img{
     max-width: 100%;
@@ -14,10 +15,15 @@ img{
     width: 1200px;
 }
 header{
-        background-color: greenyellow;
+        background-color: #68ac00;
         display: flex;
         justify-content: center;
         align-items: center;
+        color: white;
+        height: 45px;
+        h1{
+            font-size: 30px;
+        }
 }
 .header-info{
     display: flex;
